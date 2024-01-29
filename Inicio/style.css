@@ -1,0 +1,188 @@
+.container{
+    width: 100%;
+    height: auto;
+	margin: 0 auto;
+    display: flexbox;
+    background-color: rgb(218, 216, 216);
+}
+.body {
+    background-color: #9fb4e2 ;
+    font-family: 'Open Sans',Arial,sans-serif;
+}
+.header{
+    display: flex;
+    text-align: center;
+    padding: 5px 0px 0px 9px;
+    background-color: rgb(1, 101, 225);
+    
+}
+
+.headerTitulo{
+    display: flex;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    
+}
+
+.title{
+    display: flex;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 0.9em;
+    
+}
+
+.clock{
+    display: flex;
+    text-align: end;
+    margin-right: 20px 20px 20px 20px;
+
+}
+
+
+/* .timeItems{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 0px 20px;
+    align-items: flex-start;
+    border-radius: 23px;
+}
+.date{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    margin:20px 0px 20px 0px
+    
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    margin:20px 0px 20px 0px
+} */
+
+.botoneras{
+    display:flex;
+    margin: auto;
+    padding: 22px 22px 22px 22px;
+    flex-direction: column;
+    flex-wrap:nowrap ;
+    width: 50%;
+    
+  
+}
+.nuevaCita{
+    padding: 20px 20px 20px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    font-size: large;
+    border-style:ridge;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-color: #4b79b5;
+        
+}
+.nuevaCita:hover{
+    /*imagen y color boton*/
+    color:rgb(0, 117, 68);
+    border-color: #37b437;
+    background-image: url(/images/tooth_nueva_cita.ico);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 7em;
+    cursor: pointer;
+    /*titulo nuevaCita*/
+    height: 100%;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: 10rem;
+}
+.verCitas{
+    padding: 20px 20px 20px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    font-size: large;
+    border-style:ridge;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-color: #4b79b5;
+
+}
+.verCitas:hover{
+    /*imagen y color boton*/
+    color:rgb(28, 50, 255);
+    background-image: url(/images/tooth_buscar_cita.ico);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 5em;
+    cursor: pointer;
+    /*titulo nuevaCita*/
+    font-weight: bold;
+    height: 100%;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: 10rem;
+ 
+}
+.cambiarCita{
+    padding: 20px 20px 20px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    font-size: large;
+    border-style:ridge;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-color: #4b79b5;
+}
+.cambiarCita:hover{
+    /*imagen y color boton*/
+    color:rgb(177, 0, 0);
+    border-color: rgb(129, 0, 0);
+    background-image: url(/images/tooth_cambiar_cita.ico);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 5em;
+    cursor: pointer;
+    /*titulo nuevaCita*/
+    height: 100%;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: 10rem;
+    
+}
+.contactos{
+    padding: 20px 20px 20px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    font-size: large;
+    border-style:ridge;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-color: #4b79b5;
+}
+.contactos:hover{
+    /*imagen y color boton*/
+    color:coral;
+    border-color: coral;
+    background-image: url(/images/telephone_tooth_call_phone.ico);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 5em;
+    cursor: pointer;
+    /*titulo nuevaCita*/
+    height: 100%;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: 11rem;
+}
+
+.footer{
+    font-size: large;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    color: antiquewhite;
+    background-color: #17A9FD;
+}

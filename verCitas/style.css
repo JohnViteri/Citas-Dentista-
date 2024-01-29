@@ -1,0 +1,44 @@
+.container{
+    width: 100%;
+    height: auto;
+	margin: 0 auto;
+    display: flexbox;
+    background-color: rgb(218, 216, 216);
+}
+
+.body {
+    background-color: #9fb4e2 ;
+    font-family: 'Open Sans',Arial,sans-serif;
+}
+.header{
+    display: flex;
+    text-align: center;
+    padding: inherit;
+    background-color: rgb(1, 101, 225);
+    
+}
+
+.headerTitulo{
+    display: flex;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    
+}
+
+.title{
+    display: flex;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 0.9em;
+    font-weight: 400px;
+}
+
+
+
+.footer{
+    font-size: large;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    color: antiquewhite;
+    background-color: #17A9FD;
+}

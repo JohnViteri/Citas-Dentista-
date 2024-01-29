@@ -1,0 +1,125 @@
+.container{
+    width: 100%;
+    height: auto;
+	margin: 0 auto;
+    display: flexbox;
+    background-color: rgb(218, 216, 216);
+}
+
+.body {
+    background-color: #9fb4e2 ;
+    font-family: 'Open Sans',Arial,sans-serif;
+}
+.header{
+    display: flex;
+    text-align: center;
+    padding: inherit;
+    background-color: rgb(1, 101, 225);
+    
+}
+
+.headerTitulo{
+    display: flex;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    
+}
+
+.title{
+    display: flex;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 0.9em;
+    font-weight: 400px;
+}
+
+.nuevaCita {
+    /*image*/
+    height: 20%;
+    padding: 20px 20px 20px 20px;
+    background-image: url(/images/tooth_nueva_cita.ico);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*tamano imagen*/
+    max-height: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(0, 117, 68);
+    /*texto*/
+    margin-top: 13px;
+    margin-bottom: 30px;
+    border-radius: 13px;
+    color: rgb(0, 117, 68)7;
+    /*titulo*/
+    border-style:none;
+    box-shadow: 0px 0px 15px 0px rgba(55,180,55,0.61);
+    border-color:none;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    
+}
+.formulario, ul{
+    display: flex;
+    outline: #9fb4e2;
+    align-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.formulario, li{
+    padding: inherit;
+    list-style: none;
+    margin: 12px 7px 18px 12px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+.form{
+    position: inherit;
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 20px 90px;
+    margin-top: 21px;
+    margin-bottom: 16px;
+    border-radius: 12px;
+    font-size: large;
+    box-shadow: 0 2px 3px #37b437;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    
+}
+
+#nombre, #telefono, #fechaCita, #tratamiento, #horaCita{
+    
+    position: inherit;
+    display: flex;
+    align-items: center;
+    text-decoration:dotted;
+    width: 23rem;
+    height: 2rem;
+    cursor: pointer;
+    box-sizing: content-box;
+    -webkit-box-decoration-break:clone;
+    box-decoration-break: clone;
+    border-radius: 7px;
+    
+}
+
+#submit{
+    color:rgb(0, 0, 0);
+    border-color: #37b437;
+    background-position:18rem;
+    cursor: pointer;
+    width: 23rem;
+    height: 4rem;
+    margin: 0rem -1rem 0rem 3rem;
+}
+
+
+.footer{
+    font-size: large;
+    padding: 20px 20px 20px 40px;
+    text-align: center;
+    color: antiquewhite;
+    background-color: #17A9FD;
+}
